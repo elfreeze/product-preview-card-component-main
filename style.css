@@ -1,35 +1,35 @@
 
 * {
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-      text-decoration: none;
-    }
-    .attribution { 
-      font-size: 14px; 
-      text-align: center; 
-      font-family: 'Montserrat', sans-serif;
-    }
-    .attribution a { 
-      color: hsl(228, 45%, 44%); 
-      font-family: 'Fraunces', serif;
-    }
-    body{
-      background: #ebdbdb;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .preview-card {
-      background: #fff;
-      height: auto;
-      width: auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 50px auto;
-      border-radius: 10px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.attribution { 
+  font-size: 14px; 
+  text-align: center; 
+  font-family: 'Montserrat', sans-serif;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  font-family: 'Fraunces', serif;
+}
+body{
+  background: #ebdbdb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.preview-card {
+  background: #fff;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  border-radius: 10px;
     }
     .img-container {
       width: 300px;
@@ -108,8 +108,7 @@
     }
 
 
-    @media only screen and (max-width: 480px) {
-      
+    @media only screen and (max-width: 480px) {  
     .preview-card {
       flex-direction: column;
       margin: 50px auto;
@@ -143,3 +142,4 @@
       width: 250px;
       height: 40px;
     }
+  }
