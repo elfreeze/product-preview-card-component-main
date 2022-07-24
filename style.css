@@ -53,7 +53,7 @@ body {
 }
 .text-container > p {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.7;
   font-family: 'Montserrat', sans-serif;
   color: #6a7274;
 }
@@ -68,7 +68,7 @@ body {
   font-weight: 500;
   font-family: 'Fraunces', serif;
 }
-.price-container s {
+.price-container > s {
   color: #6a7274;
   font-family: 'Montserrat', sans-serif;
   place-self: center;
