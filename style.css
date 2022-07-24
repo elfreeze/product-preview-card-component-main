@@ -95,6 +95,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .btn:hover {
   background: hsl(159, 81%, 18%);
