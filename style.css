@@ -157,3 +157,46 @@ body {
   height: 50px;
 }
 }
+
+@media only screen and (max-width: 350px) {  
+  .card {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  .img-container {
+    width: 280px;
+    height: 200px;
+    background: url(/images/image-product-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .main-content {
+    width: 280px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .head {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+  }
+  .main-content > h1 {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 10px auto;
+    padding-right: 0;
+  }
+  .btn {
+    width: 230px;
+  }
+  .attribution { 
+    font-size: 10px; 
+  }
+  }
