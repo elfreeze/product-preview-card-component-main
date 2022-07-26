@@ -141,6 +141,7 @@ body {
 }
 .main-content > h1 {
   font-size: 30px;
+  width: auto;
 }
 .description {
   font-size: 14px;
