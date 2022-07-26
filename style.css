@@ -113,7 +113,10 @@ body {
 }
 
 @media only screen and (max-width: 480px) {  
-.card {
+body {
+  padding: 20px auto;
+}
+  .card {
   flex-direction: column;
 }
 .img-container {
