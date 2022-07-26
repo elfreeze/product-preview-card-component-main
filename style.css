@@ -33,7 +33,7 @@ body {
   height: 450px;
   display: flex;
   flex-direction: column;
-  padding: 30px 30px;
+  padding: 30px 38px;
   justify-content: space-between;
 }
 .main-content > h1 {
