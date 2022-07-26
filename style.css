@@ -116,8 +116,9 @@ body {
 body {
   padding: 20px auto;
 }
-  .card {
+.card {
   flex-direction: column;
+  margin: 10px auto;
 }
 .img-container {
   height: 200px;
