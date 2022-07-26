@@ -36,20 +36,21 @@ body {
   padding: 30px 38px;
   justify-content: space-between;
 }
-.main-content > h1 {
-  font-size: 15px;
+.head {
+  font-size: 14px;
   letter-spacing: 5px;
   color: rgb(128, 128, 128);
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
-.main-content > h2 {
+.main-content > h1 {
   font-size: 30px;
   line-height: 1;
   font-family: 'Fraunces', serif;
   font-weight: 700;
   color: rgb(45, 40, 40);
 }
-.main-content > p {
+.description {
   font-size: 14px;
   line-height: 1.7;
   font-family: 'Montserrat', sans-serif;
@@ -118,6 +119,7 @@ body {
   margin: 20px auto;
 }
 .img-container {
+  width: 335px;
   height: 200px;
   background: url(/images/image-product-mobile.jpg);
   background-size: cover;
@@ -125,18 +127,29 @@ body {
   background-repeat: no-repeat;
 }
 .main-content {
-  height: 400px;
+  width: 335px;
+  height: 370px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px 20px;
+  padding: 20px;
 }
-.main-content h1 {
+.head {
   font-size: 12px;
   font-weight: 500;
+  margin: 0;
 }
-.main-content h2 {
-  font-size: 28px;
+.main-content > h1 {
+  font-size: 30px;
+}
+.description {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 10px auto;
+  padding-right: 0;
+}
+.btn {
+  width: 280px;
 }
 .attribution { 
   font-size: 11px; 
