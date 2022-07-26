@@ -113,12 +113,9 @@ body {
 }
 
 @media only screen and (max-width: 480px) {  
-body {
-  padding: 20px auto;
-}
 .card {
   flex-direction: column;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .img-container {
   height: 200px;
