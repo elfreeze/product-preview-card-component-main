@@ -1,25 +1,17 @@
-
 * {
       box-sizing: border-box;
       padding: 0;
       margin: 0;
       text-decoration: none;
     }
-    .attribution { 
-      font-size: 14px; 
-      text-align: center; 
-      font-family: 'Montserrat', sans-serif;
-    }
-    .attribution a { 
-      color: hsl(228, 45%, 44%); 
-      font-family: 'Fraunces', serif;
-    }
-    body{
+    body {
       background: #ebdbdb;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
+      min-width: 100vw;
+      min-height: 100vh;
     }
     .preview-card {
       background: #fff;
@@ -28,7 +20,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 50px auto;
       border-radius: 10px;
     }
     .img-container {
@@ -40,9 +31,6 @@
       background-repeat: no-repeat;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
-    }
-    .img-container img {
-    
     }
     .text-container {
       height: 500px;
@@ -69,9 +57,6 @@
       font-family: 'Montserrat', sans-serif;
       color: #6a7274;
     }
-
-
-
     .price-container{
       display: flex;
       justify-content: center;
@@ -106,7 +91,16 @@
       margin-left: 10px;
       font-size: 13px;
     }
-
+    .attribution { 
+      font-size: 14px; 
+      text-align: center; 
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 50px;
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+      font-family: 'Fraunces', serif;
+    }
 
     @media only screen and (max-width: 480px) {
       
@@ -143,3 +137,4 @@
       width: 250px;
       height: 40px;
     }
+  }
