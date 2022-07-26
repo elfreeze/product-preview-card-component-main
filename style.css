@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  text-decoration: none;
 }
 body {
   background: hsl(30, 38%, 92%);
@@ -13,10 +12,8 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
-.preview-card {
+.card {
   background: #fff;
-  height: auto;
-  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,15 +22,15 @@ body {
 }
 .img-container {
   width: 300px;
-  height: 500px;
+  height: 450px;
   background: url(/images/image-product-desktop.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .main-content {
-  height: 500px;
   width: 300px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   padding: 30px 30px;
@@ -46,7 +43,8 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 .main-content > h2 {
-  font-size: 35px;
+  font-size: 30px;
+  line-height: 1;
   font-family: 'Fraunces', serif;
   font-weight: 700;
   color: rgb(45, 40, 40);
@@ -65,7 +63,6 @@ body {
   width: 250px;
 }
 .price-container > p {
-  margin-right: ;
   color: hsl(158, 36%, 37%);
   font-size: 30px;
   font-weight: 500;
@@ -80,11 +77,10 @@ body {
   align-items: center;
   width: 100px;
   height: 40px;
-
 }
 .btn {
-  width: 230px;
-  height: 40px;
+  width: 250px;
+  height: 50px;
   background: hsl(159, 55%, 32%);
   border-radius: 5px;
   border: none;
@@ -100,15 +96,16 @@ body {
 .btn:hover {
   background: hsl(159, 81%, 18%);
 }
-.btn p {
+.btn > p {
   margin-left: 10px;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 700;
 }
 .attribution { 
   font-size: 14px; 
   text-align: center; 
   font-family: 'Montserrat', sans-serif;
-  margin-top: 50px;
+  padding: 20px;
 }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
@@ -116,39 +113,33 @@ body {
 }
 
 @media only screen and (max-width: 480px) {  
-.preview-card {
+.card {
   flex-direction: column;
-  margin: 50px auto;
-  max-width: 300px;
-  max-height: 600px;
 }
 .img-container {
-  width: 300px;
-  height: 250px;
+  height: 200px;
   background: url(/images/image-product-mobile.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .main-content {
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px 25px;
-  height: 450px;
-  width: 300px;
+  padding: 30px 20px;
+}
+.main-content h1 {
+  font-size: 12px;
+  font-weight: 500;
 }
 .main-content h2 {
   font-size: 28px;
 }
-.price-container{
-  justify-content: left;
-  margin: 20px 0;
-}
-.btn {
-  width: 250px;
-}
 .attribution { 
   font-size: 11px; 
+  margin: 0;
+  height: 50px;
 }
 }
